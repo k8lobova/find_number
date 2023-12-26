@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Нахождение данных о номере</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+ <div>
+	<h1>Пробить номер</h1>
+    <form action = "/" method="post" style="margin: 20px">
+    	<input type="text" name="text" placeholder="Введите номер (без 8)" required="required" />
+        <button type="submit" id="submit" >Ок</button>
+    </form>
+        <p>{{ found }}</p>
+</div>
+</body>
+</html>
